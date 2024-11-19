@@ -1,0 +1,36 @@
+@import url('./sectors/SectorDetail.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h3 {
+    color: #333;
+}
+
+div {
+    padding: 20px;
+}
+
+.tower-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sector-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signal-strength {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}

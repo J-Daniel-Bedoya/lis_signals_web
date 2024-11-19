@@ -1,0 +1,41 @@
+/* SectorDetail.css */
+.sector-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sector-detail h2 {
+    text-align: center;
+    color: #333;
+}
+
+.sector-detail h4 {
+    text-align: center;
+    color: #666;
+    /* color: #ff4500; */
+}
+
+.sector-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sector-data div {
+    flex: 1 1 calc(50% - 10px);
+    background-color: #e0f7fa;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sector-data p {
+    margin: 5px 0;
+    color: #333;
+}
